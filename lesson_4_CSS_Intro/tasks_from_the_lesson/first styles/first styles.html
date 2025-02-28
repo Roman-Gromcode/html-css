@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Первые стили</title>
+    <style>
+      ul {
+        font-size: 22px;
+      }
+      .styleOrange {
+        color: orange;
+      }
+      .styleRed {
+        background-color: red;
+        color: white;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+  </head>
+  <body>
+    <section style="color: green" ;>
+      <p>You can style an element using:</p>
+      <ul>
+        <li>'style' attribute</li>
+        <li>'style' tag</li>
+        <li class="styleOrange">
+          Using separate file with <code>.css</code> extention
+        </li>
+      </ul>
+    </section>
+    <section style="background-color: yellow">
+      <p>CSS properties "width" and "height" do not work for inline elements</p>
+      <p class="styleRed">
+        Inheritance in CSS is the mechanism by which the property values of a
+        parent element are passed on to its children elements
+      </p>
+    </section>
+  </body>
+</html>
