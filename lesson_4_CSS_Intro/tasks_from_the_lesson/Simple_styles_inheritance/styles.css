@@ -1,6 +1,9 @@
+.font {
+        font-size: 24px;
+      }
 p {
   color: green;
 }
-ul {
+.color_text {
   color: orange;
 }
