@@ -1,4 +1,10 @@
-p {
+.font {
+  font-size: 24px;
+}
+.paragraphone {
+  color: green;
+}
+.paragraphtwo {
   color: green;
 }
 .color_text {
