@@ -1,6 +1,9 @@
-p {
-  color: green;
+.shrift {
+  font-size: 24px;
 }
-.color_text {
-  color: orange;
+p {
+  color:green;
+}
+ul {
+  color:orange;
 }
