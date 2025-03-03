@@ -1,7 +1,7 @@
-li {
+ul {
   margin-bottom: 16px;
 }
-a[target='_blank'] {
+[target='_blank'] {
   border: 2px solid black;
 }
 a[href^='broken'] {
@@ -16,6 +16,6 @@ a[href$='.com'] {
 a[href*='www'] {
   color: green;
 }
-a[title~='popular'] {
+[title='super-popular'] {
   font-size: 24px;
 }
