@@ -10,9 +10,8 @@ h2 {
 li {
   color: blue;
 }
-p.hello {
+.hello {
     background: white;
-    color: blue;
 }
 p {
   background: yellow;
