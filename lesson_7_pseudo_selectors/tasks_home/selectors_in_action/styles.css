@@ -16,9 +16,6 @@ p {
 input {
   border: 3px solid red;
 }
-.hello {
-  background: white;
-}
 #special {
   border: 2px solid blue;
 }
@@ -37,4 +34,7 @@ div:nth-child(3) p:nth-child(2) {
 em {
   font-size: 20px;
   color: white;
+}
+.hello {
+    background: white;
 }
