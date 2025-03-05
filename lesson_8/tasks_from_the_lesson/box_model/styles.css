@@ -6,12 +6,15 @@ body {
   height: 128px;
   padding: 16px;
   margin: 16px;
-  border: 8px solid black;
+  /*border: 8px solid black;*/
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
 }
 .rectangle1 {
   background-color: aquamarine;
 }
 .rectangle2 {
-  box-sizing: border-box;
+  box-sizing: initial;
   background-color: azure;
 }
