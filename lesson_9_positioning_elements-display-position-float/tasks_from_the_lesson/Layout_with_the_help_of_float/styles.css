@@ -1,20 +1,20 @@
-header {
+.header {
   height: 50px;
   background-color: yellow;
 }
-main {
+.content {
   width: 80%;
   background-color: pink;
   height: 500px;
   float: left;
 }
-aside {
+.sidebar {
   width: 20%;
   background-color: grey;
   height: 500px;
   float: right;
 }
-footer {
+.footer {
   height: 50px;
   background-color: green;
   clear: both;
