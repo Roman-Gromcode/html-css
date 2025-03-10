@@ -7,33 +7,22 @@
   height: 40px;
   width: 100%;
   position: fixed;
-  z-index: calc(1);
 }
 .navigation {
   line-height: 40px;
 }
 .nav-list {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    margin: 0px;
 }
 .nav-item {
   display: inline-block;
   color: white;
-  position: relative;
   margin-left: 16px;
 }
 
 .content {
   background-color: beige;
   height: 5000px;
-  /*
-  position: relative;
-  */
 }
 .head {
   width: 200px;
