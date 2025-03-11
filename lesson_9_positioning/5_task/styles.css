@@ -30,8 +30,6 @@
   width: 200px;
   height: 200px;
   background-color: aquamarine;
-}
-.location {
   position: absolute;
   top: calc(50% - 100px);
   left: calc(50% - 100px);
