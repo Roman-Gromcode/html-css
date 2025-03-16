@@ -12,6 +12,9 @@
   border-radius: 4px;
   padding: 8px;
   bottom: -40px;
-  display: block;
+  display: none;
   position: absolute;
+}
+.text:hover .tooltip {
+  display: block;
 }
