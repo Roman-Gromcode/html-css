@@ -11,6 +11,7 @@ h1 {
 }
 p {
   line-height: 28px;
+  font-weight: normal; /*насиченість текста в параграфах (400px)*/
 }
 .technology {
   letter-spacing: 3px;
