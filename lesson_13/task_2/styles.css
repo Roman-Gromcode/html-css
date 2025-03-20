@@ -3,8 +3,8 @@
   margin: 100px;
   width: 100px;
   height: 100px;
-  background-position-x: 500px;
+  background-position-x: -200px;
 }
 .icon:hover {
-  background-position-y: 100px;
+  background-position-y: -100px;
 }
