@@ -6,10 +6,12 @@
   display: flex;
   justify-content: center;
 }
+/*
 .image {
   margin: auto;
   max-width: 100%;
 }
+*/
 .image-button {
   width: 200px;
   line-height: 50px;
