@@ -4,6 +4,7 @@
 .image-container {
   position: relative;
   display: flex;
+  justify-content: center;
 }
 .image {
   margin: auto;
@@ -26,6 +27,7 @@
 
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .image-button:hover {
   filter: opacity(1);
