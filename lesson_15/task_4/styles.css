@@ -3,9 +3,9 @@
 }
 .image-container {
   position: relative;
+  display: flex;
 }
 .image {
-  display: block;
   margin: auto;
   max-width: 100%;
 }
@@ -21,8 +21,9 @@
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 100px);
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .image-button:hover {
-  filter: opacity(1); 
+  filter: opacity(1);
 }
