@@ -13,16 +13,21 @@
   width: 200px;
   line-height: 50px;
   background-color: bisque;
+  filter: opacity(0.5);
+
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  filter: opacity(0.5);
+
   cursor: pointer;
+
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 100px);
+
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .image-button:hover {
   filter: opacity(1);
