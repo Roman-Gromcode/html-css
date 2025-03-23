@@ -26,9 +26,7 @@
   left: calc(50% - 100px);
 
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  justify-content: space-around;
 }
 .image-button:hover {
   filter: opacity(1);
