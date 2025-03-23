@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-html {
-  line-height: 0;
-}
 .image-container {
   position: relative;
 }
