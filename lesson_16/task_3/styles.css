@@ -8,10 +8,13 @@
   display: flex;
   padding-left: 35px;
 }
+
 input {
   visibility: hidden;
+/*  
   width: 0px;
   height: 0px;
+*/  
 }
 span {
   display: inline-block;
