@@ -6,8 +6,8 @@ body {
 }
 .page {
   position: absolute;
-  top: calc(50% - 150px);
-  left: calc(50% - 150px);
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
 }
 .login-form {
   background-color: aqua;
@@ -50,10 +50,3 @@ body {
 input:invalid {
   border: 3px solid red;
 }
-
-
-/*
-#userName:invalid {
-  border: 3px solid red;
-}
-*/
