@@ -47,6 +47,13 @@ body {
   text-transform: uppercase;
   color: white;
 }
+input:invalid {
+  border: 3px solid red;
+}
+
+
+/*
 #userName:invalid {
   border: 3px solid red;
 }
+*/
