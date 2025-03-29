@@ -3,15 +3,31 @@
 }
 body {
   background-color: bisque;
+/*
+  display: flex;
+  align-items: center;
+  justify-content: center;
+*/
 }
 .page {
   position: absolute;
-  top: calc(50% - 100px);
-  left: calc(50% - 100px);
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+/*
+  display: flex;
+  align-items: center;
+  justify-content: center;
+*/
+/*
+  margin: auto;
+*/
 }
 .login-form {
+  /*
+  margin: auto;
+*/
   background-color: aqua;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
   width: 300px;
   padding: 16px;
