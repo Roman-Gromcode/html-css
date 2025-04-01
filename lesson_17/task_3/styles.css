@@ -1,19 +1,19 @@
 * {
   box-sizing: border-box;
 }
-
+/* внешняя граница таблицы */
 table {
   margin: 16px;
   border: 1px solid black;
   border-collapse: collapse;
 }
-
+/* параметры ячеек */
 td {
   height: 50px;
   width: 50px;
   text-align: center;
 }
-
+/* создание чорных ячеек */
 tr:nth-child(2) > td:nth-child(odd),
 tr:nth-child(3) > td:nth-child(even),
 tr:nth-child(4) > td:nth-child(odd),
@@ -24,7 +24,7 @@ tr:nth-child(8) > td:nth-child(odd),
 tr:nth-child(9) > td:nth-child(even) {
   background-color: black;
 }
-
+/* закраска лишних чорных ячеек */
 tr:nth-child(2) > td:nth-child(1),
 tr:nth-child(3) > td:nth-child(10),
 tr:nth-child(4) > td:nth-child(1),
@@ -35,18 +35,18 @@ tr:nth-child(8) > td:nth-child(1),
 tr:nth-child(9) > td:nth-child(10) {
   background-color: white;
 }
-
-tr:nth-child(2) > td:nth-child(9),
-tr:nth-child(3) > td:nth-child(9),
-tr:nth-child(4) > td:nth-child(9),
-tr:nth-child(5) > td:nth-child(9),
-tr:nth-child(6) > td:nth-child(9),
-tr:nth-child(7) > td:nth-child(9),
-tr:nth-child(8) > td:nth-child(9),
-tr:nth-child(9) > td:nth-child(9) {
-  border-right: 1px solid black;
+/* внутренняя граница - верхняя линия */
+tr:nth-child(1) > td:nth-child(2),
+tr:nth-child(1) > td:nth-child(3),
+tr:nth-child(1) > td:nth-child(4),
+tr:nth-child(1) > td:nth-child(5),
+tr:nth-child(1) > td:nth-child(6),
+tr:nth-child(1) > td:nth-child(7),
+tr:nth-child(1) > td:nth-child(8),
+tr:nth-child(1) > td:nth-child(9) {
+  border-bottom: 1px solid black;
 }
-/*
+/* внутренняя граница - правая линия */
 tr:nth-child(2) > td:nth-child(10),
 tr:nth-child(3) > td:nth-child(10),
 tr:nth-child(4) > td:nth-child(10),
@@ -57,18 +57,18 @@ tr:nth-child(8) > td:nth-child(10),
 tr:nth-child(9) > td:nth-child(10) {
   border-left: 1px solid black;
 }
-*/
-tr:nth-child(2) > td:nth-child(2),
-tr:nth-child(3) > td:nth-child(2),
-tr:nth-child(4) > td:nth-child(2),
-tr:nth-child(5) > td:nth-child(2),
-tr:nth-child(6) > td:nth-child(2),
-tr:nth-child(7) > td:nth-child(2),
-tr:nth-child(8) > td:nth-child(2),
-tr:nth-child(9) > td:nth-child(2) {
-  border-left: 1px solid black;
+/* внутренняя граница - нижняя линия */
+tr:nth-child(10) > td:nth-child(2),
+tr:nth-child(10) > td:nth-child(3),
+tr:nth-child(10) > td:nth-child(4),
+tr:nth-child(10) > td:nth-child(5),
+tr:nth-child(10) > td:nth-child(6),
+tr:nth-child(10) > td:nth-child(7),
+tr:nth-child(10) > td:nth-child(8),
+tr:nth-child(10) > td:nth-child(9) {
+  border-top: 1px solid black;
 }
-/*
+/* внутренняя граница - левая линия */
 tr:nth-child(2) > td:nth-child(1),
 tr:nth-child(3) > td:nth-child(1),
 tr:nth-child(4) > td:nth-child(1),
@@ -78,26 +78,4 @@ tr:nth-child(7) > td:nth-child(1),
 tr:nth-child(8) > td:nth-child(1),
 tr:nth-child(9) > td:nth-child(1) {
   border-right: 1px solid black;
-}
-*/
-tr:nth-child(2) td:nth-child(2),
-tr:nth-child(2) td:nth-child(3),
-tr:nth-child(2) td:nth-child(4),
-tr:nth-child(2) td:nth-child(5),
-tr:nth-child(2) td:nth-child(6),
-tr:nth-child(2) td:nth-child(7),
-tr:nth-child(2) td:nth-child(8),
-tr:nth-child(2) td:nth-child(9) {
-  border-top: 1px solid black;
-}
-
-tr:nth-child(9) td:nth-child(2),
-tr:nth-child(9) td:nth-child(3),
-tr:nth-child(9) td:nth-child(4),
-tr:nth-child(9) td:nth-child(5),
-tr:nth-child(9) td:nth-child(6),
-tr:nth-child(9) td:nth-child(7),
-tr:nth-child(9) td:nth-child(8),
-tr:nth-child(9) td:nth-child(9) {
-  border-bottom: 1px solid black;
 }
