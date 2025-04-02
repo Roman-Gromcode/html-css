@@ -17,13 +17,13 @@
   color: darkcyan;
 }
 
-.buttons:hover > .bird-icon {
-  fill: green;
-}
-
 .bird-icon {
   width: 32px;
   height: 32px;
   fill: white;
   vertical-align: middle;
+}
+
+.bird-icon:hover {
+  fill: green;
 }
