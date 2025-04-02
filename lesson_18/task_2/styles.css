@@ -16,13 +16,14 @@
 .buttons:hover {
   color: darkcyan;
 }
-
+/*
 .buttons:hover > .bird-icon {
   fill: green;
 }
+*/
 .bird-icon {
   width: 32px;
   height: 32px;
-  color: white;
+  fill: white;
   vertical-align: middle;
 }
