@@ -18,8 +18,3 @@
   width: 320px;
   height: 320px;
 }
-
-.column:first-child > .small-bird,
-.column:first-child > .large-bird {
-  max-width: 100%;
-}
