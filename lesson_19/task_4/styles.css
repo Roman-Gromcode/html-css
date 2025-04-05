@@ -25,15 +25,19 @@
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-  margin: auto;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
 }
 
 @keyframes modalWindow {
   from {
     top: -100px;
+    left: 50%;
   }
   to {
     top: calc(50vh - 50px);
+    left: 50%;
   }
 }
 
@@ -42,4 +46,8 @@
   justify-content: center;
   align-items: center;
     text-align: center;
+*/
+
+/*
+    left: calc(50% - 50px);
 */
