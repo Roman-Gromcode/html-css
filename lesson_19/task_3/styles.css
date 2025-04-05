@@ -1,16 +1,20 @@
 .container {
-  width: 100vw;
   height: 100vh;
   display: flex;
+
+  /*
   justify-content: center;
   align-items: center;
+  */
 }
 
 .spinner {
   position: relative;
+  margin: auto;
 }
 
 .spinner-text {
+  font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
 }
