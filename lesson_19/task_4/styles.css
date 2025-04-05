@@ -37,7 +37,7 @@
   }
   to {
     top: calc(50vh - 50px);
-    left: 50%;
+    left: calc(50% - 50px);
   }
 }
 
