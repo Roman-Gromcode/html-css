@@ -33,11 +33,11 @@
 @keyframes modalWindow {
   from {
     top: -100px;
-    left: calc(50vh + 50px);
+    left: calc(50vh + 25px);
   }
   to {
     top: calc(50vh - 50px);
-    left: calc(50vh + 50px);
+    left: calc(50vh + 25px);
   }
 }
 
