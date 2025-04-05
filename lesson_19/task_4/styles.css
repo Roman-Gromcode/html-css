@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.square-container {
+  display: flex;
+  height: 100vh;
+}
+.square {
+  margin: auto;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: coral;
+  display: flex;
+  animation: modalWindow 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+.block {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+@keyframes modalWindow {
+  from {
+    top: -100px;
+  }
+  to {
+    top: calc(50vh - 50px);
+  }
+}
+
+/*
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+*/
