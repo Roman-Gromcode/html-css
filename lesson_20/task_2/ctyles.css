@@ -14,10 +14,8 @@ body {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
-  animation-name: jump;
-  animation-delay: 0.4s;
-  animation-duration: 0.5s;
-  animation-timing-function: ease-in-out;
+  animation: jump 0.5s 0.4s ease-in-out, spin 0.5s ease-in-out,
+    heid 1s 2s ease forwards;
 }
 
 @keyframes jump {
@@ -29,5 +27,23 @@ body {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes heid {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(2000px);
   }
 }
