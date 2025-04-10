@@ -66,20 +66,22 @@ html {
   width: 20%;
   padding: 0.5em;
 }
-/*
+
 .footer {
   display: flex;
   justify-content: center;
   background-color: #e5e5e5;
   padding: 0.5em;
 }
-  */
 
-/* не знаю как выполнить п. 3 - прижать к нижней части границе используя flexbox. 
-  Как прижать footer к нижней части границы с помощью position: absolute или fixed и bottom: 0vh; - знаю */
+/* 
+не знаю как выполнить п. 3 - прижать к нижней части границе используя flexbox. 
+Как прижать footer к нижней части границы с помощью position: absolute - знаю 
+
 body {
   position: relative;
 }
+
 .footer {
   position: absolute;
   width: 100%;
@@ -88,3 +90,4 @@ body {
   padding: 0.5em;
   top: 100vh;
 }
+*/
