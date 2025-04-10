@@ -1,85 +1,85 @@
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  color: #555;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* выбор семейства шрифтов для всего документа*/
+  font-size: 16px; /* установка размера шрифта для всего документа */
+  color: #555; /* цвет текста для всего документа */
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  display: flex; /* гибкий контейнер для header, main, footer элементов */
+  flex-direction: column; /* изменение главной оси флекс контейнера */
+  min-height: 100vh; /* минимальная высота контейнера, чтобы footer был прижат к низу страницы */
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  color: white;
-  background-image: linear-gradient(60deg, red, orange);
+  display: flex; /* гибкий контейнер для h1 элемента */
+  justify-content: center; /* оцентрирование h1 элемента */
+  color: white; /* цвет заголовка */
+  background-image: linear-gradient(60deg, red, orange); /* фон заголовка - градиентная заливка */
 }
 
 .main {
-  display: flex;
-  flex: 1;
+  display: flex; /* гибкий контейнер для nav, section, aside элементов */
+  flex: 1; /* задает flex-basis: 0%; flex-grow: 1; flex-shrink: 1; тоесть растягивает и сжимает елементы в контейнере на всю его ширину вместе с контейнером. Footer остаётся прижатым к низу страницы */
 }
 
 .navigation {
-  width: 20%;
-  padding: 0.5em;
+  width: 20%; /* выделена ширина для навигации */
+  padding: 0.5em; /* внутренние отступы для элементов навигации */
 }
 
 .nav-list {
-  padding: 0;
+  padding: 0; /* удаление отступов по умолчанию для списка */ 
 }
 
-.nav-list-item {
-  background-color: #808080;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.nav-list-item { /* ячейки навигации */
+  background-color: #808080; /* фон для ячеек навигации */
+  line-height: 2em; /* высота ячеек навигации */
+  margin-bottom: 0.5em; /* нижний отступ для ячеек навигации */
+  white-space: nowrap; /* запрет переносить текст на следующую строку при сжатии экрана */
+  overflow: hidden; /* обрезка текста при сжатии экрана */
+  text-overflow: ellipsis; /* троеточие вместо обрезанного текста при сжатии экрана */
 }
 
-.nav-list-link {
-  color: white;
-  padding: 0.5em;
-  text-decoration: none;
+.nav-list-link { /* текст в ячейках навигации */
+  color: white; /* цвет ссылок */
+  padding: 0.5em; /* внутренний отступ для ячеек с ссылками */
+  text-decoration: none; /* удаление линии подчёркивания */
 }
 
-.section {
-  width: 60%;
-  padding: 0.5em;
-  font-size: 1.25em;
+.section { /* средняя секция сайта */
+  width: 60%; /* выделена ширина для средней секции сайта */
+  padding: 0.5em; /* внутренний отступ для элементов секции */
+  font-size: 1.25em; /* увеличение шрифта для элементов средней секции */
 }
 
-.section__header {
-  font-size: 5vw;
-  text-align: center;
+.section__header { /* заголовок средней секции */
+  font-size: 5vw; /* размер текста заголовка */
+  text-align: center; /* оцентрирование заголовка */
 }
 
-.units-list {
-  line-height: 1.75em;
+.units-list { /* список средней секции */
+  line-height: 1.75em; /* ширина между элементами списка */
 }
 
-.css-units {
-  color: #8b0000;
-  background-color: #e5e5e5;
-  font-size: 1.125em;
-  font-weight: 700;
-  text-decoration: none;
+.css-units { /* название элементов в списке */
+  color: #8b0000; /* цвет текста */
+  background-color: #e5e5e5; /* фон */
+  font-size: 1.125em; /* увеличение размера шрифта */
+  font-weight: 700; /* увеличение насыщености */
+  text-decoration: none; 
 }
 
-.news {
-  width: 20%;
-  padding: 0.5em;
+.news { /* правая секция новостей */
+  width: 20%; /* выделена ширина для правой секции новостей */
+  padding: 0.5em; /* внутренний отступ для элементов секции новостей */
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  background-color: #e5e5e5;
-  padding: 0.5em;
+.footer { /* нижняя секция сайта */
+  display: flex; /* гибкий контейнер для нижнего текста */
+  justify-content: center; /* оцентрирование нижнего текста */
+  background-color: #e5e5e5; /* фон */
+  padding: 0.5em; /* внутренний отступ для элементов нижней секции */
   /*
-  margin-top: auto;
+  margin-top: auto; - это альтернативный способ прижать footer к низу страницы, если не использовать min-height: 100vh;
   */
 }
