@@ -1,0 +1,42 @@
+.navigation,
+.products-list,
+.news {
+  display: flex; /* флекс контейнер для текста в спане, что б его оцентрировать */
+  min-height: 200px; /* минимальная высота блоков */
+  flex: 1; /* растянуть и сжать элементы в контейнере на всю его ширину */
+}
+
+.navigation {
+  background-color: #ff7f50; /* фон блока */
+}
+.products-list {
+  background-color: #006400; /* фон блока */
+}
+.news {
+  background-color: #0ff; /* фон блока */
+}
+
+span {
+  font-family: Verdana; /* шрифт текста */
+  background-color: #faebd7; /* фон текста */
+  padding: 8px; /* внутренние отступы текстового элемента */
+  border-radius: 4px; /* округление углов */
+  text-transform: lowercase; /* текст в нижнем регистре */
+  margin: auto; /* расположеине текста по центру */
+}
+
+@media screen and (min-width: 600px) {
+  /* если экран больше 600 пикселей, то: */
+  .products {
+    display: flex; /* элементы navigation and products-list становятся элементами 
+    флекс контейнера и размещаються вертикально по отношению друг к другу */
+    flex: 2; /* элементы navigation and products-list растягиваются и сжимаются в 2 раза шире чем news */
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex; /* элементы products and news становятся элементами 
+    флекс контейнера и размещаються вертикально по отношению друг к другу */
+  }
+}
