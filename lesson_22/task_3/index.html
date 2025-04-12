@@ -8,41 +8,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      main {
-        display: flex;
-      }
-      picture {
-        margin: auto;
-      }
-      img {
-        max-width: 100%;
-      }
-    </style>
   </head>
-  <body>
-    <main>
-      <picture>
+  <body style="box-sizing: border-box">
+    <!-- оптимизация границ -->
+    <main style="display: flex">
+      <!-- гибкий контейнер -->
+      <picture style="margin: auto">
+        <!-- оцентрирование картинки по горизонтали -->
         <source
           srcset="
             https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
           "
           media="(min-width: 400px)"
         />
+        <!-- показывать эту картинку при условии, что ширина экрана больше 400 пикселей -->
         <source
           srcset="
             https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
           "
         />
+        <!-- показывать эту картинку в остальных случаях, тоесть когда ширина экрана меньше 400 пикселей -->
         <img
           src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
           alt="Tree on the land"
+          style="max-width: 100%"
         />
+        <!-- Картинка по умолчанию. Будет сохранять пропорции и не искажать изображение при её уменьшении -->
       </picture>
     </main>
   </body>
 </html>
+
+<!--  -->
