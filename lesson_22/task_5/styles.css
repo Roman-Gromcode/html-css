@@ -9,6 +9,7 @@ html {
 
 body {
   display: flex; /* гибкий контейнер для header, main, footer элементов */
+  font-family:
   flex-direction: column; /* изменение главной оси флекс контейнера */
   min-height: 100vh; /* минимальная высота контейнера, чтобы footer был прижат к низу страницы */
 }
@@ -16,6 +17,7 @@ body {
 .header {
   display: flex; /* гибкий контейнер для h1 элемента */
   justify-content: center; /* оцентрирование h1 элемента */
+
   color: white; /* цвет заголовка */
   background-image: linear-gradient(
     60deg,
