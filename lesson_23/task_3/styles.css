@@ -42,7 +42,7 @@
   display: block;
 }
 .submenu__item {
-  padding: 16px 8px;
+  padding: 14px 8px;
   list-style-type: none;
 }
 .submenu__item:hover {
