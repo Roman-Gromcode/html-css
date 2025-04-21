@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 .header .menu__item {
-  padding-right: 8px;
+  padding: 0 8px;
   list-style-type: none;
   color: #fff;
 }
