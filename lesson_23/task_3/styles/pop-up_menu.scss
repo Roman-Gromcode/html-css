@@ -7,7 +7,6 @@
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   color: #fff;
   min-width: 120px;
-  height: auto;
   z-index: 1;
 
   &:hover {
@@ -15,7 +14,7 @@
   }
 
   &__item {
-    padding: 20px 8px;
+    padding: 18px 8px;
     list-style-type: none;
 
     &:hover {
