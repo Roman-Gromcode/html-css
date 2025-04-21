@@ -4,7 +4,7 @@
 }
 .header .menu {
   display: flex;
-  margin: 0 0 0 3em;
+  margin: 0;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -41,7 +41,7 @@
   display: block;
 }
 .submenu__item {
-  padding: 0 8px;
+  padding: 16px 8px;
   list-style-type: none;
 }
 .submenu__item:hover {
