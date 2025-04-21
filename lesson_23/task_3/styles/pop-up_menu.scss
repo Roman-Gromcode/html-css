@@ -14,7 +14,9 @@
   }
 
   &__item {
-    padding: 14px 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 8px;
     list-style-type: none;
 
     &:hover {
