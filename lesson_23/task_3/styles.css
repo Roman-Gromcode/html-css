@@ -37,12 +37,13 @@
   color: #fff;
   min-width: 120px;
   z-index: 1;
+  top: 3em;
 }
 .submenu:hover {
   display: block;
 }
 .submenu__item {
-  padding: 15px 8px;
+  padding: 0 8px;
   list-style-type: none;
 }
 .submenu__item:hover {
