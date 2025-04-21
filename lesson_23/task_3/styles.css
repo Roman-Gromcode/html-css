@@ -42,9 +42,7 @@
   display: block;
 }
 .submenu__item {
-  display: flex;
-  justify-content: space-between;
-  padding: 14.5px 8px;
+  padding: 15px 8px;
   list-style-type: none;
 }
 .submenu__item:hover {
