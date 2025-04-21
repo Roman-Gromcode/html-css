@@ -10,25 +10,20 @@
   cursor: pointer;
 }
 .header .menu__item {
-  padding: 0 8px;
-  list-style-type: none;
-  color: #fff;
   position: relative;
-}
-.header .menu__item-text {
+  display: block;
+  color: #fff;
+  padding: 0 8px;
   line-height: 3em;
-}
-.header .menu__item__item, .header .menu__item_active {
-  color: yellow;
-}
-.header .menu__item:hover .submenu {
-  display: flex;
-  flex-direction: column;
-  height: 9em;
-  justify-content: space-around;
 }
 .header .menu__item:hover {
   background-color: #9acd32;
+}
+.header .menu__item:hover .submenu {
+  display: block;
+}
+.header .menu__item_active {
+  color: yellow;
 }
 
 .submenu {
@@ -42,7 +37,6 @@
   min-width: 120px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  top: 3em;
 }
 .submenu:hover {
   display: block;
