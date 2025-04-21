@@ -13,6 +13,7 @@
       padding: 0 8px;
       list-style-type: none;
       color: #fff;
+      position: relative;
 
       &-text {
         line-height: 3em;
@@ -24,7 +25,10 @@
       }
 
       &:hover .submenu {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        height: 10em;
+        justify-content: space-around;
       }
 
       &:hover {
