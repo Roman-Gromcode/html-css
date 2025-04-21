@@ -8,13 +8,14 @@
   color: #fff;
   min-width: 120px;
   z-index: 1;
+  top: 3em;
 
   &:hover {
     display: block;
   }
 
   &__item {
-    padding: 15px 8px;
+    padding: 0 8px;
     list-style-type: none;
 
     &:hover {
