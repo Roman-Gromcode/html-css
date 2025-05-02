@@ -1,0 +1,6 @@
+{
+  "prettier.enableDebugLogs": true,
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 50,
+  "prettier.singleQuote": true
+}
