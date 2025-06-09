@@ -60,7 +60,7 @@ body {
 }
 .panel-basic__price {
   top: 130px;
-  height: 105px;
+  height: 100px;
   display: flex;
   background-color: #5bb189;
 }
