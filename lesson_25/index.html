@@ -8,6 +8,19 @@
 		/>
 		<title>Document</title>
 		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
 		/>
@@ -15,18 +28,31 @@
 	</head>
 	<body>
 		<div class="block-panels">
-			<div class="panel-basic panel">
-				<div class="panel-basic__name"></div>
-				<div class="panel-basic__price"></div>
+			<section class="panel-basic panel">
+				<div class="panel-basic__name">
+					<span
+						class="panel-basic__name_rate"
+					>Basic</span>
+					<span
+						class="panel-basic__name_website"
+					>Website</span>
+				</div>
+				<div class="panel-basic__price">
+                    <span class="panel-basic__price_sum">99€</span>
+                </div>
 				<div
 					class="panel-basic__description"
 				></div>
 				<div class="panel-basic__list"></div>
 				<div class="panel-basic__order"></div>
-			</div>
+			</section>
 
-			<div class="panel-business panel"></div>
-			<div class="panel-webshop panel"></div>
+			<section
+				class="panel-business panel"
+			></section>
+			<section
+				class="panel-webshop panel"
+			></section>
 		</div>
 	</body>
 </html>

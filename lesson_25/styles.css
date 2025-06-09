@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 body {
@@ -23,18 +25,42 @@ body {
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.0862745098);
   margin: 115px 0;
 }
-
 .panel:first-child {
   margin-left: 132px;
   margin-right: 18px;
 }
-
 .panel:nth-child(2) {
   margin-right: 18px;
 }
-
 .panel:last-child {
   margin-right: 132px;
+}
+.panel-basic {
+  display: flex;
+  flex-direction: column;
+}
+.panel-basic__name {
+  width: 106px;
+  height: 67px;
+  margin: 32px 137px 31px 137px;
+  text-align: center;
+}
+.panel-basic__name_rate {
+  font-size: 35px;
+}
+.panel-basic__name_website {
+  font-size: 20px;
+  line-height: 24px;
+}
+.panel-basic__price {
+  height: 105px;
+  display: flex;
+  background-color: #5bb189;
+}
+.panel-basic__price_sum {
+  font-size: 55px;
+  margin: 19px 132px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
