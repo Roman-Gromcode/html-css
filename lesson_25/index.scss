@@ -43,41 +43,49 @@ body {
 	&:nth-child(3) {
 		margin-right: 132px;
 	}
+}
 
-	&-basic {
+.panel-basic {
+	display: flex;
+	flex-direction: column;
+
+	&__name {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 380px;
+		height: 130px;
+		// line-height: 130px;
+		// width: 106px;
+		// height: 67px;
+		// margin: 32px 137px 31px 137px;
+		// text-align: center;
 
-		&__name {
-			width: 106px;
-			height: 67px;
-			margin: 32px 137px 31px 137px;
-			text-align: center;
-
-			&_rate {
-				font-size: 35px;
-                line-height: 43px;
-				font-weight: 700;
-			}
-
-			&_website {
-				font-size: 20px;
-				line-height: 24px;
-				font-weight: 400;
-			}
+		&_rate {
+			font-size: 35px;
+			line-height: 43px;
+			font-weight: 700;
 		}
 
-		&__price {
-			height: 105px;
-			display: flex;
-			background-color: #5bb189;
+		&_website {
+			font-size: 20px;
+			line-height: 24px;
+			font-weight: 400;
+		}
+	}
 
-			&_sum {
-				font-size: 55px;
-				margin: 19px 132px;
-				text-align: center;
-                font-weight: 700;
-			}
+	&__price {
+		top: 130px;
+		height: 105px;
+		display: flex;
+		background-color: #5bb189;
+
+		&_sum {
+			font-size: 55px;
+			margin: 19px 132px;
+			text-align: center;
+			font-weight: 700;
 		}
 	}
 }

@@ -35,15 +35,18 @@ body {
 .panel:nth-child(3) {
   margin-right: 132px;
 }
+
 .panel-basic {
   display: flex;
   flex-direction: column;
 }
 .panel-basic__name {
-  width: 106px;
-  height: 67px;
-  margin: 32px 137px 31px 137px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 130px;
 }
 .panel-basic__name_rate {
   font-size: 35px;
@@ -56,6 +59,7 @@ body {
   font-weight: 400;
 }
 .panel-basic__price {
+  top: 130px;
   height: 105px;
   display: flex;
   background-color: #5bb189;
