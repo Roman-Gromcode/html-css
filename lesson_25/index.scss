@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 	color: #fff;
+
+	// font-family: "Montserrat", sans-serif;
+	// font-optical-sizing: auto;
+	// font-weight: <weight>;
+	// font-style: normal;
 }
 
 body {
@@ -26,7 +31,7 @@ body {
 	box-shadow: 0px 6px 6px 0px #00000016;
 	margin: 115px 0;
 
-	&:first-child {
+	&:nth-child(1) {
 		margin-left: 132px;
 		margin-right: 18px;
 	}
@@ -35,7 +40,7 @@ body {
 		margin-right: 18px;
 	}
 
-	&:last-child {
+	&:nth-child(3) {
 		margin-right: 132px;
 	}
 
@@ -51,23 +56,26 @@ body {
 
 			&_rate {
 				font-size: 35px;
+				font-weight: 700;
 			}
 
 			&_website {
 				font-size: 20px;
-				line-height: 24px;
+				// line-height: 24px;
+				font-weight: 400;
 			}
 		}
 
 		&__price {
 			height: 105px;
-            display: flex;
+			display: flex;
 			background-color: #5bb189;
 
 			&_sum {
 				font-size: 55px;
-                margin: 19px 132px;
-                text-align: center;
+				margin: 19px 132px;
+				text-align: center;
+                font-weight: 700;
 			}
 		}
 	}

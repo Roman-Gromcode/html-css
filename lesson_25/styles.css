@@ -25,14 +25,14 @@ body {
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.0862745098);
   margin: 115px 0;
 }
-.panel:first-child {
+.panel:nth-child(1) {
   margin-left: 132px;
   margin-right: 18px;
 }
 .panel:nth-child(2) {
   margin-right: 18px;
 }
-.panel:last-child {
+.panel:nth-child(3) {
   margin-right: 132px;
 }
 .panel-basic {
@@ -47,10 +47,11 @@ body {
 }
 .panel-basic__name_rate {
   font-size: 35px;
+  font-weight: 700;
 }
 .panel-basic__name_website {
   font-size: 20px;
-  line-height: 24px;
+  font-weight: 400;
 }
 .panel-basic__price {
   height: 105px;
@@ -61,6 +62,7 @@ body {
   font-size: 55px;
   margin: 19px 132px;
   text-align: center;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
