@@ -74,7 +74,11 @@ body {
 		top: 130px;
 		height: 120px;
 		display: flex;
-		background-color: #5bb189;
+		// background-color: #5bb189;
+
+		&_rectangle {
+			max-width: 100%;
+		}
 
 		&_sum {
 			font-size: 55px;

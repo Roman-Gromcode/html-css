@@ -62,7 +62,9 @@ body {
   top: 130px;
   height: 120px;
   display: flex;
-  background-color: #5bb189;
+}
+.panel-basic__price_rectangle {
+  max-width: 100%;
 }
 .panel-basic__price_sum {
   font-size: 55px;
