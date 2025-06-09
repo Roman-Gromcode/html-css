@@ -60,16 +60,14 @@ body {
 }
 .panel-basic__price {
   top: 130px;
-  height: 120px;
+  height: 105px;
+  background-color: #5bb189;
   display: flex;
-}
-.panel-basic__price_rectangle {
-  max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .panel-basic__price_sum {
   font-size: 55px;
-  margin: 19px 132px;
-  text-align: center;
   font-weight: 700;
 }
 

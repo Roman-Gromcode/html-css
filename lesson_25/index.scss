@@ -72,18 +72,14 @@ body {
 
 	&__price {
 		top: 130px;
-		height: 120px;
+		height: 105px;
+		background-color: #5bb189;
 		display: flex;
-		// background-color: #5bb189;
-
-		&_rectangle {
-			max-width: 100%;
-		}
+		justify-content: center;
+		align-items: center;
 
 		&_sum {
 			font-size: 55px;
-			margin: 19px 132px;
-			text-align: center;
 			font-weight: 700;
 		}
 	}
