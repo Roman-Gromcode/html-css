@@ -47,10 +47,12 @@ body {
 }
 .panel-basic__name_rate {
   font-size: 35px;
+  line-height: 43px;
   font-weight: 700;
 }
 .panel-basic__name_website {
   font-size: 20px;
+  line-height: 24px;
   font-weight: 400;
 }
 .panel-basic__price {
