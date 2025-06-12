@@ -19,15 +19,6 @@ body {
   display: flex;
 }
 
-.experement {
-  width: 106px;
-  height: 67px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .price-card {
   display: flex;
   flex-direction: column;
@@ -54,12 +45,20 @@ body {
   justify-content: center;
   align-items: center;
 }
-.price-card__title_rate {
+.price-card__title_frame {
+  width: 106px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price-card__title_frame-rate {
   font-size: 35px;
   line-height: 43px;
   font-weight: 700;
 }
-.price-card__title_website {
+.price-card__title_frame-website {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
