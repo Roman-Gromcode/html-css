@@ -72,10 +72,9 @@ body {
 }
 .price-card__price {
   height: 105px;
-  background-image: url(rectangle_green.png);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+}
+.price-card__price_sum {
   font-size: 55px;
   font-weight: 700;
 }
