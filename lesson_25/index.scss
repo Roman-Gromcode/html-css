@@ -2,11 +2,6 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 	color: #fff;
-
-	// font-family: "Montserrat", sans-serif;
-	// font-optical-sizing: auto;
-	// font-weight: <weight>;
-	// font-style: normal;
 }
 
 body {
@@ -17,19 +12,39 @@ body {
 	// max-width: 100%;
 }
 
-.block-panels {
+.block__price-card {
 	width: 1440px;
 	height: 1000px;
 	background-color: #141b1c;
 	display: flex;
 }
 
-.panel {
+.badge {
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	&__image_strip {
+		position: absolute;
+		right: 0;
+		margin: auto;
+		max-width: 100%;
+	}
+
+	&__image_text {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+}
+
+.price-card {
+	display: flex;
+	flex-direction: column;
 	width: 380px;
-	height: 770px;
 	background-color: #334247;
-	box-shadow: 0px 6px 6px 0px #00000016;
 	margin: 115px 0;
+	position: relative;
 
 	&:nth-child(1) {
 		margin-left: 132px;
@@ -43,19 +58,13 @@ body {
 	&:nth-child(3) {
 		margin-right: 132px;
 	}
-}
 
-.panel-basic {
-	display: flex;
-	flex-direction: column;
-
-	&__name {
+	&__title {
+		height: 130px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 380px;
-		height: 130px;
 
 		&_rate {
 			font-size: 35px;
@@ -71,16 +80,90 @@ body {
 	}
 
 	&__price {
-		top: 130px;
 		height: 105px;
-		background-color: #5bb189;
+		background-image: url(rectangle_green.png);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 55px;
+		font-weight: 700;
+		// text-align: center;
+
+	}
+
+	&__description {
+		height: 116px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 
-		&_sum {
-			font-size: 55px;
-			font-weight: 700;
+		&_text {
+			width: 328px;
+			height: 36px;
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 100%;
+			text-align: center;
 		}
 	}
+
+	&__list {
+		height: 300px;
+
+		&_element {
+			height: 50px;
+			display: flex;
+
+			&:nth-child(odd) {
+				background-color: #2a3438;
+			}
+
+			&-check {
+				width: 15px;
+				height: 13px;
+				margin-left: 22px;
+				margin-top: 18px;
+				margin-bottom: 19px;
+			}
+
+			&-text {
+				height: 18px;
+				margin-left: 22px;
+				margin-top: 16px;
+				margin-bottom: 16px;
+				font-weight: 300;
+				font-size: 15px;
+				line-height: 100%;
+			}
+		}
+	}
+
+	&__order {
+		height: 119px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&_button {
+			width: 156px;
+			height: 40px;
+			border-radius: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 14px;
+		}
+	}
+}
+
+.color-of-the-left-card {
+	background-color: #5bb189;
+}
+
+.color-of-the-cenetr-card {
+	background-color: #3a6ba5;
+}
+
+.color-of-the-right-card {
+	background-color: #ec632a;
 }
