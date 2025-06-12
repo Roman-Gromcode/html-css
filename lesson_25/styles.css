@@ -19,23 +19,6 @@ body {
   display: flex;
 }
 
-.badge {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.badge__image_strip {
-  position: absolute;
-  right: 0;
-  margin: auto;
-  max-width: 100%;
-}
-.badge__image_text {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
 .price-card {
   display: flex;
   flex-direction: column;
@@ -69,7 +52,7 @@ body {
 .price-card__title_website {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 700;
 }
 .price-card__price {
   height: 105px;
