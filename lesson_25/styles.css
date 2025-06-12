@@ -46,12 +46,10 @@ body {
 }
 .price-card__title_rate {
   font-size: 35px;
-  line-height: 43px;
   font-weight: 700;
 }
 .price-card__title_website {
   font-size: 20px;
-  line-height: 24px;
   font-weight: 400;
 }
 .price-card__price {
