@@ -65,7 +65,7 @@ body {
   font-weight: 400;
 }
 .price-card__price {
-  height: 105px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
