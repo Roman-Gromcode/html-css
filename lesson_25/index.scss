@@ -9,7 +9,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	// max-width: 100%;
+	max-width: 100%;
 }
 
 .block__price-card {
@@ -81,13 +81,10 @@ body {
 
 	&__price {
 		height: 105px;
-		// display: flex;
-		// justify-content: center;
-		// align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		position: relative;
-
-		&_rectangle {
-		}
 
 		&_sum {
 			font-size: 55px;
