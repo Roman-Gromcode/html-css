@@ -44,7 +44,6 @@ body {
 		top: 32px;
 		height: 130px;
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 
@@ -53,7 +52,6 @@ body {
 			height: 67px;
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
 			align-items: center;
 
 			&-rate {
