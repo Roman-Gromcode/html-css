@@ -4,10 +4,6 @@
 	color: #fff;
 }
 
-html {
-	line-height: 0;
-}
-
 body {
 	display: flex;
 	justify-content: center;
@@ -21,6 +17,15 @@ body {
 	height: 1000px;
 	background-color: #141b1c;
 	display: flex;
+}
+
+.experement {
+	width: 106px;
+	height: 67px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .price-card {
@@ -45,6 +50,7 @@ body {
 	}
 
 	&__title {
+		top: 32px;
 		height: 130px;
 		display: flex;
 		flex-direction: column;
@@ -53,13 +59,13 @@ body {
 
 		&_rate {
 			font-size: 35px;
-			// line-height: 43px;
+			line-height: 43px;
 			font-weight: 700;
 		}
 
 		&_website {
 			font-size: 20px;
-			// line-height: 24px;
+			line-height: 24px;
 			font-weight: 400;
 		}
 	}

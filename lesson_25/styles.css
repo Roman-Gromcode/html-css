@@ -4,10 +4,6 @@
   color: #fff;
 }
 
-html {
-  line-height: 0;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -21,6 +17,15 @@ body {
   height: 1000px;
   background-color: #141b1c;
   display: flex;
+}
+
+.experement {
+  width: 106px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-card {
@@ -42,6 +47,7 @@ body {
   margin-right: 132px;
 }
 .price-card__title {
+  top: 32px;
   height: 130px;
   display: flex;
   flex-direction: column;
@@ -50,10 +56,12 @@ body {
 }
 .price-card__title_rate {
   font-size: 35px;
+  line-height: 43px;
   font-weight: 700;
 }
 .price-card__title_website {
   font-size: 20px;
+  line-height: 24px;
   font-weight: 400;
 }
 .price-card__price {
