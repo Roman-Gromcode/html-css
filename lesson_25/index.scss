@@ -24,8 +24,8 @@ $orange-color: #ec632a;
 }
 
 .price-card {
-	display: flex; /* под вопросом удаления, скорее всего он не нужен */
-	flex-direction: column; /* под вопросом удаления, скорее всего он не нужен */
+	// display: flex; /* под вопросом удаления, скорее всего он не нужен */
+	// flex-direction: column; /* под вопросом удаления, скорее всего он не нужен */
 	width: 380px;
 	background-color: #334247;
 	margin: 115px 0;
@@ -98,7 +98,7 @@ $orange-color: #ec632a;
 	}
 
 	&__price {
-		height: 115px;
+		height: 105px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
