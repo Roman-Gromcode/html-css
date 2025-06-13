@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -20,8 +21,8 @@ body {
 }
 
 .price-card {
-  display: flex;
-  flex-direction: column;
+  display: flex; /* под вопросом удаления, скорее всего он не нужен */
+  flex-direction: column; /* под вопросом удаления, скорее всего он не нужен */
   width: 380px;
   background-color: #334247;
   margin: 115px 0;
@@ -31,11 +32,32 @@ body {
   margin-left: 132px;
   margin-right: 18px;
 }
+.price-card:nth-child(1) .price-card__price,
+.price-card:nth-child(1) .price-card__order_button {
+  background-color: #5bb189;
+}
+.price-card:nth-child(1) .price-card__list_element-check {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
 .price-card:nth-child(2) {
   margin-right: 18px;
 }
+.price-card:nth-child(2) .price-card__price,
+.price-card:nth-child(2) .price-card__order_button {
+  background-color: #3a6ba5;
+}
+.price-card:nth-child(2) .price-card__list_element-check {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
 .price-card:nth-child(3) {
   margin-right: 132px;
+}
+.price-card:nth-child(3) .price-card__price,
+.price-card:nth-child(3) .price-card__order_button {
+  background-color: #ec632a;
+}
+.price-card:nth-child(3) .price-card__list_element-check {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__title {
   height: 130px;
@@ -123,18 +145,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 14px;
-}
-
-.color-of-the-left-card {
-  background-color: #5bb189;
-}
-
-.color-of-the-cenetr-card {
-  background-color: #3a6ba5;
-}
-
-.color-of-the-right-card {
-  background-color: #ec632a;
 }
 
 /*# sourceMappingURL=styles.css.map */
