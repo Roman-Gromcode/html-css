@@ -38,13 +38,14 @@ body {
   margin-right: 132px;
 }
 .price-card__title {
-  top: 32px;
   height: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .price-card__title_frame {
+  position: relative;
+  top: 32px;
   width: 106px;
   height: 67px;
   display: flex;
