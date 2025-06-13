@@ -47,7 +47,7 @@ body {
 		align-items: center;
 
 		&_frame {
-			width: 100%;
+			// width: 100%;
 			height: 67px;
 			display: flex;
 			flex-direction: column;
@@ -68,11 +68,10 @@ body {
 	}
 
 	&__price {
-		height: 110px;
+		height: 115px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		position: relative;
 
 		&_sum {
 			font-size: 55px;
