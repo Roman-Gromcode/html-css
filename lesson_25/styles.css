@@ -61,22 +61,20 @@ body {
 .price-card__title {
   height: 130px;
   display: flex;
-}
-.price-card__title_frame {
-  position: relative;
-  top: 32px;
-  height: 67px;
-  margin: auto;
-  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .price-card__title_frame-rate {
+  margin: 0;
+  line-height: 43px;
   font-size: 35px;
   font-weight: 700;
 }
 .price-card__title_frame-website {
+  margin: 0;
+  line-height: 24px;
   font-size: 20px;
-  margin: auto;
 }
 .price-card__price {
   height: 105px;
