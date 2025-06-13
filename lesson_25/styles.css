@@ -42,6 +42,26 @@ body {
 .price-card:nth-child(2) .price-card__list_element-check {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
+.price-card:nth-child(2) .price-card {
+  position: relative;
+}
+.price-card:nth-child(2) .price-card__badge {
+  margin: 0;
+}
+.price-card:nth-child(2) .price-card__badge_content {
+  width: 147px;
+  height: 25px;
+  position: absolute;
+  background: #dc3f45;
+  transform: rotate(45deg);
+  top: 32px;
+  right: -31px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .price-card:nth-child(3) {
   margin-right: 132px;
 }
@@ -58,6 +78,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .price-card__title_rate {
   margin: 0;

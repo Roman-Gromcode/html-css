@@ -16,8 +16,6 @@ $blue-color: #3a6ba5;
 $orange-color: #ec632a;
 
 .block__price-card {
-	// width: 1440px;
-	// height: 1000px;
 	background-color: #141b1c;
 	display: flex;
 }
@@ -26,7 +24,6 @@ $orange-color: #ec632a;
 	width: 380px;
 	background-color: #334247;
 	margin: 115px 0;
-	// position: relative;
 
 	&:nth-child(1) {
 		margin-left: 132px;
@@ -53,6 +50,29 @@ $orange-color: #ec632a;
 		.price-card__list_element-check {
 			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 		}
+
+		.price-card {
+			position: relative;
+
+			&__badge {
+				margin: 0;
+
+				&_content {
+					width: 147px;
+					height: 25px;
+					position: absolute;
+					background: #dc3f45;
+					transform: rotate(45deg);
+					top: 32px;
+					right: -31px;
+					font-size: 14px;
+					font-weight: 700;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+		}
 	}
 
 	&:nth-child(3) {
@@ -74,6 +94,7 @@ $orange-color: #ec632a;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		position: relative;
 
 		&_rate {
 			margin: 0;
@@ -118,10 +139,7 @@ $orange-color: #ec632a;
 	}
 
 	&__list {
-		// height: 300px;
-
 		&_element {
-			// height: 50px;
 			display: flex;
 
 			&:nth-child(odd) {
@@ -133,7 +151,6 @@ $orange-color: #ec632a;
 				height: 13px;
 				margin-left: 22px;
 				margin-top: 18px;
-				// margin-bottom: 19px;
 			}
 
 			&-text {
@@ -143,7 +160,6 @@ $orange-color: #ec632a;
 				margin-bottom: 16px;
 				font-weight: 300;
 				font-size: 15px;
-				// line-height: 100%;
 			}
 		}
 	}
