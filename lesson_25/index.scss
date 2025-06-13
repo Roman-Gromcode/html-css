@@ -76,21 +76,20 @@ $orange-color: #ec632a;
 		display: flex;
 
 		&_frame {
+			position: relative;
+			top: 32px;
 			height: 67px;
 			margin: auto;
 			display: flex;
 			flex-direction: column;
 
 			&-rate {
-
 				font-size: 35px;
 				// line-height: 43px;
 				font-weight: 700;
-	
 			}
 
 			&-website {
-
 				font-size: 20px;
 				// line-height: 24px;
 				margin: auto;

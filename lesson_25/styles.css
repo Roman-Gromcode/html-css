@@ -63,6 +63,8 @@ body {
   display: flex;
 }
 .price-card__title_frame {
+  position: relative;
+  top: 32px;
   height: 67px;
   margin: auto;
   display: flex;
