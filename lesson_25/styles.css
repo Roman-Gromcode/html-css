@@ -70,10 +70,12 @@ body {
 }
 .price-card__title_frame-rate {
   font-size: 35px;
+  line-height: 100%;
   font-weight: 700;
 }
 .price-card__title_frame-website {
   font-size: 20px;
+  line-height: 100%;
   margin: auto;
 }
 .price-card__price {
