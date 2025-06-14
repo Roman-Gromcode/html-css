@@ -115,19 +115,19 @@ body {
   line-height: 100%;
   text-align: center;
 }
-.price-card__list_element {
+.price-card__options-list_element {
   display: flex;
 }
-.price-card__list_element:nth-child(odd) {
+.price-card__options-list_element:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__list_element-check {
+.price-card__options-list_element-check {
   width: 15px;
   height: 13px;
   margin-left: 22px;
   margin-top: 18px;
 }
-.price-card__list_element-text {
+.price-card__options-list_element-text {
   height: 18px;
   margin-left: 22px;
   margin-top: 16px;
