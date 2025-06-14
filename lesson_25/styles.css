@@ -29,7 +29,7 @@ body {
 .price-card:nth-child(1) .price-card__order_button {
   background-color: #5bb189;
 }
-.price-card:nth-child(1) .price-card__list_element-check {
+.price-card:nth-child(1) .price-card__options-list_element-check {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 .price-card:nth-child(2) {
@@ -39,7 +39,7 @@ body {
 .price-card:nth-child(2) .price-card__order_button {
   background-color: #3a6ba5;
 }
-.price-card:nth-child(2) .price-card__list_element-check {
+.price-card:nth-child(2) .price-card__options-list_element-check {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
 .price-card:nth-child(2) .price-card {
@@ -69,7 +69,7 @@ body {
 .price-card:nth-child(3) .price-card__order_button {
   background-color: #ec632a;
 }
-.price-card:nth-child(3) .price-card__list_element-check {
+.price-card:nth-child(3) .price-card__options-list_element-check {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__title {
