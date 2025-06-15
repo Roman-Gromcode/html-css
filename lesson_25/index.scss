@@ -31,12 +31,13 @@ $orange-color: #ec632a;
 	&__title {
 		height: 67px;
 		margin-top: 32px;
-		// margin-bottom: 31px;
+		margin-bottom: 31px;	
 
 		display: flex;
 		flex-direction: column;
 		// justify-content: center;
 		// align-items: center;
+
 
 		&_rate {
 			margin: 0;
@@ -136,6 +137,7 @@ $orange-color: #ec632a;
 		.price-card__title {
 			width: 106px;
 			margin-left: 137px;
+			margin-right: 137px;
 		}
 
 		.price-card__price,
@@ -155,6 +157,7 @@ $orange-color: #ec632a;
 			position: relative;
 			width: 171px;
 			margin-left: 105px;
+			margin-right: 104px;
 
 			&_badge {
 				margin: 0;
@@ -195,6 +198,7 @@ $orange-color: #ec632a;
 		.price-card__title {
 			width: 183px;
 			margin-left: 99px;
+			margin-right: 98px;
 		}
 
 		.price-card__price,
