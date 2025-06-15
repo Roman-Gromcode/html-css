@@ -33,26 +33,26 @@ $orange-color: #ec632a;
 		margin-top: 32px;
 		margin-bottom: 31px;
 
-		// display: flex;
+		display: flex;
 		// flex-direction: column;
 		// justify-content: center;
 		// align-items: center;
 
 		&_rate {
 			margin: 0;
-			// margin: auto;
+			margin: auto;
 			line-height: 43px;
 			font-size: 35px;
 			font-weight: 700;
-			text-align: center;
+			// text-align: center;
 		}
 
 		&_website {
 			margin: 0;
-			// margin: auto;
+			margin: auto;
 			line-height: 24px;
 			font-size: 20px;
-			text-align: center;
+			// text-align: center;
 		}
 	}
 
