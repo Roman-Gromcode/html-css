@@ -74,7 +74,12 @@ body {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__title {
-  height: 130px;
+  width: 106px;
+  height: 67px;
+  margin-top: 32px;
+  margin-right: 137px;
+  margin-bottom: 31px;
+  margin-left: 137px;
   display: flex;
   flex-direction: column;
   justify-content: center;
