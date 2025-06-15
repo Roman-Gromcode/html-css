@@ -11,7 +11,8 @@ body {
   height: 100vh;
 }
 
-.block__price-card {
+.price-tables {
+  height: 1000px;
   background-color: #141b1c;
   display: flex;
 }
