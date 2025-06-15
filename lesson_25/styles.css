@@ -26,8 +26,6 @@ body {
   height: 67px;
   margin-top: 32px;
   margin-bottom: 31px;
-  display: flex;
-  flex-direction: column;
 }
 .price-card__title_rate {
   margin: 0;
