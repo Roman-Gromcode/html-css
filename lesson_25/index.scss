@@ -15,6 +15,8 @@ $green-color: #5bb189;
 $blue-color: #3a6ba5;
 $orange-color: #ec632a;
 
+// код для всех таблиц
+
 .price-tables {
 	height: 1000px;
 	background-color: #141b1c;
@@ -25,69 +27,6 @@ $orange-color: #ec632a;
 	width: 380px;
 	background-color: #334247;
 	margin: 115px 0;
-
-	&:nth-child(1) {
-		margin-left: 132px;
-		margin-right: 18px;
-
-		.price-card__price,
-		.price-card__order_button {
-			background-color: $green-color;
-		}
-
-		.price-card__options-list_element-check {
-			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-		}
-	}
-
-	&:nth-child(2) {
-		margin-right: 18px;
-
-		.price-card__price,
-		.price-card__order_button {
-			background-color: $blue-color;
-		}
-
-		.price-card__options-list_element-check {
-			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-		}
-
-		.price-card__title {
-			position: relative;
-
-			&_badge {
-				margin: 0;
-
-				&-content {
-					width: 147px;
-					height: 25px;
-					position: absolute;
-					background: #dc3f45;
-					transform: rotate(45deg);
-					top: 32px;
-					right: -31px;
-					font-size: 14px;
-					font-weight: 700;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-				}
-			}
-		}
-	}
-
-	&:nth-child(3) {
-		margin-right: 132px;
-
-		.price-card__price,
-		.price-card__order_button {
-			background-color: $orange-color;
-		}
-
-		.price-card__options-list_element-check {
-			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-		}
-	}
 
 	&__title {
 		width: 106px;
@@ -185,6 +124,100 @@ $orange-color: #ec632a;
 			justify-content: center;
 			align-items: center;
 			font-size: 14px;
+		}
+	}
+}
+
+// код для каждой отдельной таблицы
+
+.price-card {
+	&:nth-child(1) {
+		margin-left: 132px;
+		margin-right: 18px;
+
+		.price-card__title {
+			width: 106px;
+			height: 67px;
+			margin-top: 32px;
+			margin-right: 137px;
+			margin-bottom: 31px;
+			margin-left: 137px;
+		}
+
+		.price-card__price,
+		.price-card__order_button {
+			background-color: $green-color;
+		}
+
+		.price-card__options-list_element-check {
+			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+		}
+	}
+
+	&:nth-child(2) {
+		margin-right: 18px;
+
+		.price-card__title {
+			position: relative;
+			width: 171px;
+			height: 67px;
+			margin-top: 32px;
+			margin-right: 104px;
+			margin-bottom: 31px;
+			margin-left: 105px;
+
+			&_badge {
+				margin: 0;
+				position: relative;
+				left: 170px;
+				bottom: 99px;
+
+				&-content {
+					width: 147px;
+					height: 25px;
+					position: absolute;
+					background: #dc3f45;
+					transform: rotate(45deg);
+					top: 32px;
+					right: -31px;
+					font-size: 14px;
+					font-weight: 700;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+		}
+
+		.price-card__price,
+		.price-card__order_button {
+			background-color: $blue-color;
+		}
+
+		.price-card__options-list_element-check {
+			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+		}
+	}
+
+	&:nth-child(3) {
+		margin-right: 132px;
+
+		.price-card__title {
+			width: 183px;
+			height: 67px;
+			margin-top: 32px;
+			margin-right: 98px;
+			margin-bottom: 31px;
+			margin-left: 99px;
+		}
+
+		.price-card__price,
+		.price-card__order_button {
+			background-color: $orange-color;
+		}
+
+		.price-card__options-list_element-check {
+			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 		}
 	}
 }
