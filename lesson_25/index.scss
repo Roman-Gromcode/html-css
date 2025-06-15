@@ -52,13 +52,13 @@ $orange-color: #ec632a;
 			background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 		}
 
-		.price-card {
+		.price-card__title {
 			position: relative;
 
-			&__badge {
+			&_badge {
 				margin: 0;
 
-				&_content {
+				&-content {
 					width: 147px;
 					height: 25px;
 					position: absolute;
@@ -95,7 +95,6 @@ $orange-color: #ec632a;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		position: relative;
 
 		&_rate {
 			margin: 0;
