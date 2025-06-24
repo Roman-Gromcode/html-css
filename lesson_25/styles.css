@@ -42,6 +42,7 @@ body {
 .price-card__title_website {
   line-height: 24px;
   font-size: 20px;
+  font-weight: 300;
 }
 .price-card__price {
   height: 105px;
