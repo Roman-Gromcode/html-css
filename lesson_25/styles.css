@@ -25,6 +25,7 @@ body {
 }
 .price-card__title {
   height: 130px;
+  margin-bottom: 31px;
   display: flex;
   flex-direction: column;
   justify-content: center;
