@@ -27,6 +27,7 @@ $orange-color: #ec632a;
 	width: 380px;
 	background-color: #334247;
 	margin: 115px 0;
+	position: relative;
 
 	&__title {
 		height: 67px;
@@ -154,33 +155,43 @@ $orange-color: #ec632a;
 	&:nth-child(2) {
 		margin-right: 18px;
 
+		.price-card__badge {
+			width: 122px;
+			height: 123px;
+			border: 1px solid #fff; // удалить!!!
+			position: absolute;
+			top: -18px;
+			right: -18px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			&_rectangle {
+				width: 25px;
+				height: 147px;
+				transform: rotate(-45deg);
+				background: #dc3f45;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				&-content {
+					font-size: 14px;
+					line-height: 100%;
+					font-weight: 700;
+					transform: rotate(90deg);
+					list-style: none;
+				}
+			}
+		}
+
 		.price-card__title {
 			position: relative;
 			width: 171px;
 			margin-left: 105px;
 			margin-right: 104px;
-
-			&_badge {
-				margin: 0;
-				position: relative;
-				left: 170px;
-				bottom: 99px;
-
-				&-content {
-					width: 147px;
-					height: 25px;
-					position: absolute;
-					background: #dc3f45;
-					transform: rotate(45deg);
-					top: 32px;
-					right: -31px;
-					font-size: 14px;
-					font-weight: 700;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-				}
-			}
 		}
 
 		.price-card__price,
