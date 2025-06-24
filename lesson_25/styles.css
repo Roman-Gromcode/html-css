@@ -119,6 +119,7 @@ body {
 }
 .price-card:nth-child(2) {
   margin-right: 18px;
+  overflow: hidden;
 }
 .price-card:nth-child(2) .price-card__badge {
   width: 122px;
