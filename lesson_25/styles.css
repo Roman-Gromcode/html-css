@@ -24,8 +24,7 @@ body {
   position: relative;
 }
 .price-card__title {
-  margin-top: 32px;
-  margin-bottom: 31px;
+  height: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
