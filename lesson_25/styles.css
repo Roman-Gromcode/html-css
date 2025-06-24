@@ -123,7 +123,6 @@ body {
 .price-card:nth-child(2) .price-card__badge {
   width: 122px;
   height: 123px;
-  border: 1px solid #fff;
   position: absolute;
   top: -18px;
   right: -18px;
