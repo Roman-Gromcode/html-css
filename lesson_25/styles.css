@@ -32,6 +32,7 @@ body {
 }
 .price-card__title_rate, .price-card__title_website {
   margin: 0;
+  text-align: center;
 }
 .price-card__title_rate {
   line-height: 43px;
