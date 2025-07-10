@@ -1,0 +1,21 @@
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'colors';
+@import 'price-card';
+.card-1 {
+	background-color: $color-card1;
+}
+.card-2 {
+	background-color: $color-card2;
+}
+.card-3 {
+	background-color: $color-card3;
+}
+.badge-1 {
+	display: none;
+}
+.badge-2 {
+	display: flex;
+}
+.badge-3 {
+	display: none;
+}
